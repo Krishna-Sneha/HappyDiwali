@@ -1,0 +1,36 @@
+*{
+    background: url("https://i.pinimg.com/originals/b4/ee/5b/b4ee5b6d3e504c1eb097ca81c00d4709.gif");
+    background-repeat: no-repeat;
+    background-attachement: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  h1{
+    color:white;
+    text-shadow: 4px 4px 4px white;
+    text-align: center;
+    font-size: 90px;
+  }
+  p{
+    color: white;
+    text-align: center;
+    font-size:50px;
+    
+  }
+  footer{
+    color: white;
+    text-align: center;
+    font-size:25px;
+    position:absolute;
+    right: 10px;
+    bottom: 10px;
+  }
+
+  @media screen and (max-width: 935px),
+  screen and (max-height: 644px) {
+   footer{
+       display: none;
+   }   
+      
+  }
